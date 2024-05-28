@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgba(128, 128, 128, 0.717);
+            padding: 45px;
+        }
+        .card{
+            background-color: white;
+            width: 198px;
+            height: 344px;
+            border-radius: 7px;
+            padding: 0 0 60px;
+        }
+        .image{
+            padding: 5px;
+            
+        }
+        .image img{
+            border-radius: 7px;
+        }
+        .content{
+            padding: 7px 13px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .content p{
+            font-size: 13px;
+            color: grey;
+        }
+        .capsules span{
+            border: 1px solid gray;
+            padding:  0 6px;
+            border-radius: 10px;
+            font-size: 10px;
+            padding: 1px 4px ;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            cursor: pointer;
+        }
+        
+        .capsules{
+            padding: 0 28px 0 14px;
+            cursor: pointer;
+
+
+        }
+        
+        .button{
+            text-align: center;
+            padding: 3px 0 ;
+        }
+        .button button{
+            padding: 3px 13px;
+            border-radius: 15px;
+            background-color: rgba(38, 250, 253, 0.884);
+            border: none;
+            margin-top: 10px;
+            margin-right: 10px;
+            font-size: 13px;
+            color: red;
+            cursor: pointer;
+
+        }
+        .button button:hover{
+            background-color: blue;
+            color: yellow
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="188" src="project photo.png" alt="photo">
+        </div>
+        <div class="capsules">
+            <span class="hd1">Nature</span>
+            <span class="hd2">Lake</span>
+        </div>
+        <div class="content">
+            <h2>Cards</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quis voluptates inventore provident ex. Excepturi, ipsum molestias corporis laudantium molestiae cum harum quia!</p>
+        </div>
+        <div class="button">
+            <button>More....</button>
+        </div>
+    </div>
+</body>
+</html>
